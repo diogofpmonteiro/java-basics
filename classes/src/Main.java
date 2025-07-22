@@ -56,5 +56,16 @@ public class Main {
         System.out.println(friend1.name);
         Friend.showFriends();
         */
+
+        Dog dog = new Dog();
+        Cat cat = new Cat();
+        Plant plant = new Plant();
+
+
+        dog.eat();
+        cat.eat();
+        System.out.println(dog.isAlive);
+        System.out.println(plant.isAlive);
+        plant.photosynthesize();
     }
 }
