@@ -9,7 +9,7 @@ public class Main {
         System.out.println(car.isRunning);
         car.stop();
         System.out.println(car.isRunning);
-
+        car.model = "Golf"
 
         Student student1 = new Student("Diogo", 21, 3.5);
         Student student2 = new Student("João", 25, 2.5);
@@ -48,6 +48,13 @@ public class Main {
         System.out.println(user4.username);
         System.out.println(user4.email);
         System.out.println(user4.age);
+
+        Friend friend1 = new Friend("Diogo");
+        Friend friend2 = new Friend("Spongebob");
+        Friend friend3 = new Friend("Squidward");
+
+        System.out.println(friend1.name);
+        Friend.showFriends();
         */
     }
 }
