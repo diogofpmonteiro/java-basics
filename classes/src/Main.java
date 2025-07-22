@@ -20,8 +20,6 @@ public class Main {
         System.out.println(student1.gpa);
         System.out.println(student1.isEnrolled);
         student1.study();
-        */
-
 
         User user1 = new User("Diogo");
         User user2 = new User("Pat", "pat@gmail.com");
@@ -50,5 +48,6 @@ public class Main {
         System.out.println(user4.username);
         System.out.println(user4.email);
         System.out.println(user4.age);
+        */
     }
 }
