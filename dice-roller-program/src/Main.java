@@ -12,7 +12,6 @@ public class Main {
         numOfDice = scanner.nextInt();
 
         if (numOfDice > 0) {
-            // ROLL DICE
             for (int i = 0; i < numOfDice; i++) {
                 int roll = random.nextInt(1, 7);
                 printDie(roll);
