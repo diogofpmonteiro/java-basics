@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-
+/*
         Animal animal;
         Scanner scanner = new Scanner(System.in);
 
@@ -18,6 +18,16 @@ public class Main {
         } else {
             System.out.println("Invalid animal");
         }
+ */
+        Car car = new Car("Polo", "Black", 5000);
+        System.out.println(car.getColor() + " " + car.getModel() + " " + car.getPrice());
+        car.setColor("Red");
+        car.setPrice(0);
+        System.out.println(car.getColor() + " " + car.getModel() + " " + car.getPrice());
+
+
 
     }
+
+
 }
